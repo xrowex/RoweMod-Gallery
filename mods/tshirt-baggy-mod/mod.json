@@ -1,9 +1,9 @@
 {
-  "Id": "tshirt-baggy-mod",
-  "Title": "Baggy T-Shirt (Mod)",
-  "Author": "Rowe",
-  "Slot": "Tops",
-  "Row": "tshirt-baggy-mod",
-  "Version": "202609210126",
-  "Table": "DT-upper"
+  "id": "tshirt-baggy-mod",
+  "title": "Baggy T-Shirt (Mod)",
+  "author": "Rowe",
+  "slot": "Tops",
+  "row": "tshirt-baggy-mod",
+  "version": "202609210128",
+  "table": "DT-upper"
 }
