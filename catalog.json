@@ -1,0 +1,15 @@
+﻿{
+  "repo": "xrowex/RoweMod-Gallery",
+  "mods": [
+    {
+      "id": "oversized-jeans-mod",
+      "title": "Rowe Jeans (Mod)",
+      "author": "Rowe",
+      "slot": "Bottoms",
+      "row": "oversized-jeans-mod",
+      "version": "1",
+      "path": "mods/oversized-jeans-mod",
+      "preview": "mods/oversized-jeans-mod/preview.png"
+    }
+  ]
+}

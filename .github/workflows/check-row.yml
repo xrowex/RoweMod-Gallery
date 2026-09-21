@@ -1,0 +1,14 @@
+name: check-row
+on:
+  pull_request:
+    paths:
+      - "mods/**"
+jobs:
+  unique:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Unique row names
+        run: python3 .github/scripts/check_rows.py
