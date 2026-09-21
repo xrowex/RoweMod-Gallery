@@ -12,8 +12,8 @@ if mods.is_dir():
         info = folder / "mod.json"
         if not info.is_file():
             continue
-        data = json.loads(info.read_text(encoding="utf-8"))
-        row = data.get("row") or data.get("id")
+        data = json.loads(info.read_text(encoding="utf-8-sig"))
+        row = data.get("row") or data.get("Row") or data.get("id") or data.get("Id")
         if not row:
             print("::error::missing row in", folder.name)
             ok = False
