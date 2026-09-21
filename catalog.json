@@ -1,4 +1,4 @@
-﻿{
+{
   "repo": "xrowex/RoweMod-Gallery",
   "mods": [
     {
@@ -10,6 +10,16 @@
       "version": "1",
       "path": "mods/oversized-jeans-mod",
       "preview": "mods/oversized-jeans-mod/preview.png"
+    },
+    {
+      "id": "tshirt-baggy-mod",
+      "title": "Baggy T-Shirt (Mod)",
+      "author": "Rowe",
+      "slot": "Tops",
+      "row": "tshirt-baggy-mod",
+      "version": "202609210128",
+      "path": "mods/tshirt-baggy-mod",
+      "preview": "mods/tshirt-baggy-mod/preview.png"
     }
   ]
 }
